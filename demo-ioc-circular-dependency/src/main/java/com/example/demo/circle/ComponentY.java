@@ -3,6 +3,9 @@ package com.example.demo.circle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/**
+ * Y depend on X Z W
+ */
 @Component
 public class ComponentY implements Printer{
     static int counter = 20;

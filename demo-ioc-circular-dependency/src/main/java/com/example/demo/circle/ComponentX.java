@@ -5,6 +5,9 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
+/**
+ * X depend on W Y Z
+ */
 @Component
 public class ComponentX implements Printer{
 

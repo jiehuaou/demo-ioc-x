@@ -4,6 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
+/**
+ * Z depend on X W Y
+ */
+
 @Component
 public class ComponentZ implements Printer{
     static int counter = 30;
@@ -14,6 +18,7 @@ public class ComponentZ implements Printer{
     private ComponentW w;
 
     ComponentY y;
+
     @Autowired
     public ComponentZ(@Lazy ComponentY y) {
         System.out.println("ComponentZ ... constructed");
