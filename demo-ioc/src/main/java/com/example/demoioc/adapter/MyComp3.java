@@ -1,5 +1,6 @@
-package com.example.demoioc;
+package com.example.demoioc.adapter;
 
+import com.example.demoioc.MyComp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
