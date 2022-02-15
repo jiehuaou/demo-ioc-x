@@ -24,13 +24,13 @@ public class MyConfig {
 
     @Bean(name = "my-repository")
     @ConditionalOnProperty(name = "new.config.use", havingValue = "true")
-    public MyRepository getRepository1(){
-        return new MyRepositoryNew();
+    public MyRepository getRepository1(SubRepository subRepository){
+        return new MyRepositoryNew(subRepository);
     }
 
     @Bean(name = "my-repository")
     @ConditionalOnProperty(name = "new.config.use", havingValue = "false")
-    public MyRepository getRepository2(){
-        return new MyRepositoryOld();
+    public MyRepository getRepository2(SubRepository subRepository){
+        return new MyRepositoryOld(subRepository);
     }
 }

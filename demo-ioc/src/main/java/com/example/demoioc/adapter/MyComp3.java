@@ -4,7 +4,7 @@ import com.example.demoioc.MyComp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("comp3")
 public class MyComp3 {
 
     public MyComp getComp2() {

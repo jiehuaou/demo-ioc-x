@@ -17,7 +17,7 @@ public class TestRepoNew {
 	@Test
 	void testNewRepo() {
 		String text = repo.hello();
-		Assertions.assertEquals("New", text);
+		Assertions.assertEquals("New->world", text);
 	}
 
 

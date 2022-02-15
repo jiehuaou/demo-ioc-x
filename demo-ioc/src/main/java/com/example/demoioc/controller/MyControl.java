@@ -25,6 +25,7 @@ public class MyControl {
     MyComp3 comp3;
 
     @Autowired
+    @Qualifier("comp2")
     MyComp comp ;
 
     @Autowired
