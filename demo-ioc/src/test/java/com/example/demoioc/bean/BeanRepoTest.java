@@ -8,9 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class BeanRepoTest {
     @Autowired
-    BeanRepo adapter1;
+    BeanRepo adapter1;  // use its name to match bean
     @Autowired
-    BeanRepo adapter2;
+    BeanRepo adapter2;  // use its name to match bean
     @Autowired
     BeanRepoComponent comp1;
 
