@@ -1,3 +1,16 @@
+# What Is Inversion of Control
+
+Inversion of Control is a principle to transfers control of object and their dependencies from the main program to a container or framework. 
+
+* decoupling the execution of a task from its implementation
+* making it easier to switch between different implementations
+* greater ease in testing a program by isolating a component or mocking its dependencies, 
+
+# What Is Dependency Injection?
+
+Dependency injection is a pattern we can use to implement IoC, 
+
+Connecting objects with other objects, or “injecting” objects into other objects, is done by container rather than by the objects themselves.
 
 # circular-dependency solution
 
