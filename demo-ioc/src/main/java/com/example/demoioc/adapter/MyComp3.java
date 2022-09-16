@@ -4,6 +4,10 @@ import com.example.demoioc.MyComp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+/**
+ * Setter-Based Dependency Injection
+ */
+
 @Component("comp3")
 public class MyComp3 {
 

@@ -7,6 +7,16 @@ import javax.annotation.PostConstruct;
 
 /**
  * X depend on W Y Z
+ * 
+ * demo-1, Autowired by method
+ *   
+ *   @Autowired
+ *   public void config(ComponentY y){
+ *       this.y = y;
+ *   }
+ * 
+ * 
+ * 
  */
 @Component
 public class ComponentX implements Printer{

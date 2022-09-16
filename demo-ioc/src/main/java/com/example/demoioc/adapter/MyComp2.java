@@ -4,6 +4,10 @@ import com.example.demoioc.MyComp;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
+/**
+ * Component with profile prod
+ */
+
 @Profile("prod")
 @Component("comp2")
 public class MyComp2 implements MyComp {

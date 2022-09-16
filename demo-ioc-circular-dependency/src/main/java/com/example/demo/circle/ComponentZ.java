@@ -19,7 +19,7 @@ public class ComponentZ implements Printer{
 
     ComponentY y;
 
-    @Autowired
+    //@Autowired
     public ComponentZ(@Lazy ComponentY y) {
         System.out.println("ComponentZ ... constructed");
         System.out.println("@Lazy ComponentY into Z " + y.getClass().toString());
